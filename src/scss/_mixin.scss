@@ -12,12 +12,10 @@
 	$fontSize: 16px,
 	$fontWeight: 400,
 	$color: #000,
-	$leterSpacing: 0,
 	$lineHeight: 0
 ) {
 	font-size: $fontSize;
 	font-weight: $fontWeight;
 	color: $color;
-	letter-spacing: $leterSpacing;
 	line-height: $lineHeight;
 }

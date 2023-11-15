@@ -1,0 +1,21 @@
+.text-small-color {
+	margin-bottom: 15px;
+	@include text(14px, 700, none, auto);
+	background: linear-gradient(to right, #ff26b2 0%, #851bd9 15%, #3f0fff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-small {
+	@include text(12px, 400, $color-black, auto);
+	padding: 5px 25px 5px 0;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.icon-color {
+	color: #851bd9;
+}

@@ -1,1 +1,1 @@
-Master: Projekt tworzenia CV. Wykorzystując scss.
+Develop: stworzenie nagłówka

@@ -1,8 +1,8 @@
-import Cv from './components/Cv';
+import Hero from './components/Hero';
 import './scss/style.scss';
 
 const App = () => {
-	return <Cv />;
+	return <Hero />;
 };
 
 export default App;
