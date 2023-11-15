@@ -6,6 +6,7 @@
 
 	.hero-box-text {
 		width: 80%;
+
 		.hero-heading {
 			@include text(46px, 700, $color-black, auto);
 			margin-bottom: 10px;

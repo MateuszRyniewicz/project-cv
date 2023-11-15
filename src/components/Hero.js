@@ -32,6 +32,8 @@ const Hero = () => {
 							linkedin.com/in/mateusz-ryniewicz/
 						</a>
 					</p>
+				</div>
+				<div className='hero-box-text-info'>
 					<FaGithub className='icon-color' />
 					<p className='text-small text-underline'>
 						<a
