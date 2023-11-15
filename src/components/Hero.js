@@ -25,11 +25,21 @@ const Hero = () => {
 				<div className='hero-box-text-info'>
 					<CiLinkedin className='icon-color' />
 					<p className='text-small text-underline'>
-						linkedin.com/in/mateusz-ryniewicz/
+						<a
+							target='_blank'
+							href='https://www.linkedin.com/in/mateusz-ryniewicz/'
+							rel='noreferrer'>
+							linkedin.com/in/mateusz-ryniewicz/
+						</a>
 					</p>
 					<FaGithub className='icon-color' />
 					<p className='text-small text-underline'>
-						github.com/MateuszRyniewicz/
+						<a
+							target='_blank'
+							href='https://github.com/MateuszRyniewicz'
+							rel='noreferrer'>
+							github.com/MateuszRyniewicz/
+						</a>
 					</p>
 				</div>
 			</div>

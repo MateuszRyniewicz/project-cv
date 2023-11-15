@@ -1,6 +1,5 @@
 .text-small-color {
-	margin-bottom: 15px;
-	@include text(14px, 700, none, auto);
+	@include text(12px, 700, none, auto);
 	background: linear-gradient(to right, #ff26b2 0%, #851bd9 15%, #3f0fff 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -12,10 +11,29 @@
 	padding: 5px 25px 5px 0;
 }
 
-.text-underline{
-    text-decoration: underline;
+.text-small-color-gray {
+	@include text(12px, 400, $color-gray, auto);
+	padding: 5px 25px 5px 0;
+}
+.text-small-color-bold-gray {
+	@include text(12px, 700, $color-gray, auto);
+	padding: 5px 25px 5px 0;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-bold-regular {
+	@include text(13px, 700, $color-black, auto);
+	padding: 5px 0;
 }
 
 .icon-color {
 	color: #851bd9;
+}
+
+.line {
+	border-bottom: 1px solid $color-gray;
+	margin-bottom: 30px;
 }

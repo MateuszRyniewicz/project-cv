@@ -1,11 +1,14 @@
 .hero {
 	padding: 50px 25px;
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: center;
+
 	.hero-box-text {
 		width: 80%;
 		.hero-heading {
 			@include text(46px, 700, $color-black, auto);
+			margin-bottom: 10px;
 		}
 		.hero-box-text-info {
 			display: flex;
