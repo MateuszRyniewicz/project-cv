@@ -1,1 +1,1 @@
-Develop: stworzenie nagłówka
+PC-1: stworzenie strony CV

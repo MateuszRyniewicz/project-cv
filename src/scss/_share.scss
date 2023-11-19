@@ -8,7 +8,7 @@
 
 .text-small {
 	@include text(12px, 400, $color-black, auto);
-	padding: 5px 25px 10px 0;
+	padding: 5px;
 }
 
 .text-small-color-gray {

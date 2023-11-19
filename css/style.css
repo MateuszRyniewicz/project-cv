@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  border: 1px solid #ddd;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-small-color {
+  font-size: 12px;
+  font-weight: 700;
+  color: none;
+  line-height: auto;
+  background: -webkit-gradient(linear, left top, right top, from(#ff26b2), color-stop(15%, #851bd9), to(#3f0fff));
+  background: linear-gradient(to right, #ff26b2 0%, #851bd9 15%, #3f0fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-small {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  line-height: auto;
+  padding: 5px;
+}
+
+.text-small-color-gray {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  line-height: auto;
+  padding: 5px 25px 5px 0;
+}
+
+.text-small-color-bold-gray {
+  font-size: 12px;
+  font-weight: 700;
+  color: #999;
+  line-height: auto;
+  padding: 5px 25px 5px 0;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold-regular {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+  line-height: auto;
+  padding: 5px 0;
+}
+
+.icon-color {
+  color: #851bd9;
+}
+
+.line {
+  border-bottom: 1px solid #999;
+  margin-bottom: 30px;
+}
+
+.hero {
+  padding: 50px 25px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .hero-box-text {
+  width: 80%;
+}
+.hero .hero-box-text .hero-heading {
+  font-size: 46px;
+  font-weight: 700;
+  color: #000;
+  line-height: auto;
+  margin-bottom: 10px;
+}
+.hero .hero-box-text .hero-box-text-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+}
+.hero .hero-box-image {
+  width: 150px;
+  height: 150px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 40px;
+  gap: 25px;
+}
+.main .box-experience {
+  width: 60%;
+}
+.main .box-skills {
+  width: 40%;
+}/*# sourceMappingURL=style.css.map */
