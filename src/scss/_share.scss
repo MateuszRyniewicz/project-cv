@@ -1,9 +1,6 @@
 .text-small-color {
 	@include text(12px, 700, none, auto);
-	background:  red;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #3f0fff;
 }
 
 .text-small {

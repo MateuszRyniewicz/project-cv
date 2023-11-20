@@ -33,10 +33,7 @@ a {
   font-weight: 700;
   color: none;
   line-height: auto;
-  background: red;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #3f0fff;
 }
 
 .text-small {
