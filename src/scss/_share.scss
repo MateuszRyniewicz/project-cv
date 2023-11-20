@@ -1,6 +1,6 @@
 .text-small-color {
 	@include text(12px, 700, none, auto);
-	background: linear-gradient(to right, #ff26b2 0%, #851bd9 15%, #3f0fff 100%);
+	background:  #851bd9;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
