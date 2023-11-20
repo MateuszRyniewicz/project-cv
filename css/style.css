@@ -33,8 +33,7 @@ a {
   font-weight: 700;
   color: none;
   line-height: auto;
-  background: -webkit-gradient(linear, left top, right top, from(#ff26b2), color-stop(15%, #851bd9), to(#3f0fff));
-  background: linear-gradient(to right, #ff26b2 0%, #851bd9 15%, #3f0fff 100%);
+  background: red;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,6 +82,10 @@ a {
 .line {
   border-bottom: 1px solid #999;
   margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .hero {
