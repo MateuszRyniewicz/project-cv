@@ -186,7 +186,7 @@ const Main = () => {
 					className='text-small'>
 					GTHUB
 				</a>
-				<p className='text-small'>Mern stack project to lerning</p>
+				<p className='text-small mb-50'>Mern stack project to lerning</p>
 			</div>
 		</div>
 	);
