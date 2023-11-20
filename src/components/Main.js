@@ -11,12 +11,25 @@ const Main = () => {
 					Intern (Wordpress)
 					<span className='text-small-color-gray'> Netivo</span>
 				</p>
-				<p className='text-small'>
+				<div className='text-small'>
 					- Helping to administrate and maintain clients' websites <br /> -
-					Basic creation of Tutlo websites (first page, second page) <br />
-					- Editing blogs (page) <br />- Testing pages
+					Basic creation of Tutlo websites (
+					<a href='https://tutlo.com/pl/angielski-dla-firm/' target='_blank'>
+						first page
+					</a>
+					,
+					<a
+						href='https://tutlo.com/business/akademia-motywacji/'
+						target='_blank'>
+						second page
+					</a>
+					) <br />- Editing blogs (
+					<a href='https://panasiuk.com.pl/blog/' target='_blank'>
+						blog
+					</a>
+					) <br />- Testing pages
 					<br /> - Basic activities in Wordpress
-				</p>
+				</div>
 				<div className='line'></div>
 
 				<p className='text-small-color'>September 2017 - September 2023</p>
@@ -179,7 +192,7 @@ const Main = () => {
 					Formik
 				</p>
 
-				<p className='text-small-color'>MERN STACK LEARN</p>
+				<p className='text-small-color'>MERN stack learn</p>
 				<a
 					href='https://github.com/MateuszRyniewicz'
 					target='_blank'
